@@ -19,6 +19,11 @@ PRODUCT_PACKAGES += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.default \
+    fstab.default.vendor_ramdisk
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
