@@ -22,6 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# ION
+PRODUCT_PACKAGES += \
+    libion.recovery
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.default \
