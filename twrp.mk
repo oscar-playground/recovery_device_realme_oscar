@@ -8,6 +8,10 @@ TW_THEME := portrait_hdpi
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_NO_SCREEN_BLANK := true
 
+# Punch-hole
+TW_Y_OFFSET := 104
+TW_H_OFFSET := -104
+
 # Brightness
 TW_MAX_BRIGHTNESS := 2048
 TW_DEFAULT_BRIGHTNESS := 1024
