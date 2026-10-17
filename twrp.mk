@@ -6,6 +6,7 @@
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_INPUT_BLACKLIST := "hbtp_vm"
+TW_NO_SCREEN_BLANK := true
 
 # Brightness
 TW_MAX_BRIGHTNESS := 2048
